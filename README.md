@@ -38,3 +38,15 @@ python -m unittest discover -s tests -v
 node --check app/report-loop-app.js
 python -m compileall -q app harness
 ```
+
+## Windows 原始素材结构化工具
+
+新增独立模块，将 TXT、CSV、DOCX、XLSX 和文本型 PDF 转为可追溯的 `openharness-structured-data/v1` JSON。无需启动 Report Loop 服务，使用 Python 和已登录的 Codex CLI。
+
+- [工具源码与使用说明](structured-data-windows/README.md)
+- [下载 Windows 工具包 v1.0.0](downloads/structured-data-windows-1.0.0.zip)
+- [SHA-256 校验文件](downloads/structured-data-windows-1.0.0.zip.sha256)
+- [Windows 验证记录](structured-data-windows/VALIDATION.md)
+
+解压后进入工具目录，运行 `setup.cmd` 安装依赖，再按说明运行 `run.cmd`。不含 OCR；无法解析的素材会列入未解决项。也可将整个工具目录作为 Skill 使用。
+
