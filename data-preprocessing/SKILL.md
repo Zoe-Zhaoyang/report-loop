@@ -1,5 +1,5 @@
 ---
-name: structured-data-windows
+name: data-preprocessing
 description: 将 Windows 本地原始素材转换为可追溯的 OpenHarness Structured Data JSON。用于证据抽取、素材清洗与结构化，不包含报告写作或参考报告质检。
 ---
 

@@ -6,7 +6,7 @@
 
 需要 Windows 10/11、Python 3.10+（命令 python 可用）、已安装并登录的 Codex CLI，以及可访问的模型。工具包不包含 Python、Node.js 或 Codex 程序。
 
-解压后在工具目录打开 PowerShell：
+在仓库的 data-preprocessing 目录打开 PowerShell：
 
 ```powershell
 .\setup.cmd
@@ -60,7 +60,7 @@ python scripts/structured_data.py run --source "D:\素材\访谈.docx" --source 
 
 ## 作为 Skill
 
-把整个 structured-data-windows 文件夹放入目标环境的 Skills 目录（通常为 %USERPROFILE%\.codex\skills）。不要只复制 SKILL.md；需保留 scripts、assets 和依赖说明。安装位置变化后重新运行 setup.cmd，虚拟环境不能跨路径搬运。
+把整个 data-preprocessing 文件夹放入目标环境的 Skills 目录（通常为 %USERPROFILE%\.codex\skills）。不要只复制 SKILL.md；需保留 scripts、assets 和依赖说明。安装位置变化后重新运行 setup.cmd，虚拟环境不能跨路径搬运。
 
 ## 测试
 
